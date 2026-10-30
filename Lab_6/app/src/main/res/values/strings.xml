@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DialogApp</string>
+    <string name="dialog_message">Введите данные</string>
+    <string name="show_text">Показать текст</string>
+    <string name="close">Закрыть</string>
+    <string name="exit">Выйти</string>
+</resources>

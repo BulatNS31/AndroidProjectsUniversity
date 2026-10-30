@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+    <string name="constraintlayout">ConstraintLayout</string>
+    <string name="email">Email</string>
+    <string name="Password">Пароль</string>
+    <string name="Remind_me">Запомнить меня</string>
+</resources>

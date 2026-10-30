@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Цвета фона -->
+    <item android:id="@+id/red"   android:title="Красный фон" app:showAsAction="never"/>
+    <item android:id="@+id/green" android:title="Зелёный фон" app:showAsAction="never"/>
+    <item android:id="@+id/blue"  android:title="Синий фон"  app:showAsAction="never"/>
+
+    <!-- ===== Выбор картинки фона ===== -->
+    <item android:id="@+id/bg_background" android:title="Фон: Background" app:showAsAction="never"/>
+    <item android:id="@+id/bg_aben"       android:title="Фон: Aben"       app:showAsAction="never"/>
+    <item android:id="@+id/bg_morning"    android:title="Фон: Morning"    app:showAsAction="never"/>
+    <item android:id="@+id/bg_night"      android:title="Фон: Night"      app:showAsAction="never"/>
+
+    <!-- Добавление элементов -->
+    <item android:id="@+id/add_edittext" android:title="Добавить EditText" app:showAsAction="never"/>
+    <item android:id="@+id/add_textview" android:title="Добавить TextView" app:showAsAction="never"/>
+    <item android:id="@+id/add_button"   android:title="Добавить Button"   app:showAsAction="never"/>
+    <item android:id="@+id/clear"        android:title="Очистить всё"      app:showAsAction="never"/>
+
+    <!-- Смена шрифта -->
+    <item android:id="@+id/font_bellota"          android:title="Шрифт: Bellota"          app:showAsAction="never"/>
+    <item android:id="@+id/font_opensans"         android:title="Шрифт: OpenSans"         app:showAsAction="never"/>
+    <item android:id="@+id/font_playfair"         android:title="Шрифт: Playfair Display" app:showAsAction="never"/>
+    <item android:id="@+id/font_bellota_bold"     android:title="Шрифт: Bellota Bold"     app:showAsAction="never"/>
+    <item android:id="@+id/font_playfair_italic"  android:title="Шрифт: Playfair Italic"  app:showAsAction="never"/>
+
+    <!-- Выход -->
+    <item android:id="@+id/exit" android:title="Выход" app:showAsAction="never"/>
+</menu>

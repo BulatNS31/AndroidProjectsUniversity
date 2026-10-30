@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library name="Моя электронная библиотека">
+
+    <books>
+        <book id="1" genre="Фантастика">
+            <title>Марсианин</title>
+            <author>Энди Вейер</author>
+            <year>2011</year>
+            <pages>384</pages>
+            <publisher>Клуб семейного досуга</publisher>
+            <price currency="RUB">650</price>
+            <availability>В наличии</availability>
+        </book>
+
+        <book id="2" genre="Фэнтези">
+            <title>Хоббит</title>
+            <author>Джон Толкин</author>
+            <year>1937</year>
+            <pages>320</pages>
+            <publisher>АСТ</publisher>
+            <price currency="RUB">500</price>
+            <availability>Выдана</availability>
+        </book>
+
+        <book id="3" genre="Детектив">
+            <title>Убийство в Восточном экспрессе</title>
+            <author>Агата Кристи</author>
+            <year>1934</year>
+            <pages>288</pages>
+            <publisher>Эксмо</publisher>
+            <price currency="RUB">450</price>
+            <availability>В наличии</availability>
+        </book>
+    </books>
+
+    <readers>
+        <reader id="101">
+            <name>Иван Петров</name>
+            <age>20</age>
+            <email>ivan@example.com</email>
+            <borrowedBook>2</borrowedBook>
+        </reader>
+
+        <reader id="102">
+            <name>Анна Смирнова</name>
+            <age>22</age>
+            <email>anna@example.com</email>
+            <borrowedBook>1</borrowedBook>
+        </reader>
+    </readers>
+
+    <categories>
+        <category id="1" name="Фантастика"/>
+        <category id="2" name="Фэнтези"/>
+        <category id="3" name="Детектив"/>
+    </categories>
+
+    <statistics>
+        <totalBooks>3</totalBooks>
+        <totalReaders>2</totalReaders>
+        <availableBooks>2</availableBooks>
+    </statistics>
+
+</library>
